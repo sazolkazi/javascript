@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="test_function()">Click To Test Function</button>
+
+<script>
+function test_function() {
+
+var friends = ["Sazol", "Raitul", "Rasel", "Samrat", "Rajib"];
+
+var string = get_five_character_length_string(friends);
+
+console.log( string );
+
+}
+
+function get_five_character_length_string(array) {
+  var srtring = array[0];
+  for (i = 0; i < array.length; i++) {
+    if (array[i].length == 5 ) {
+      srtring = array[i];
+      break;
+    }
+  }
+  return srtring;
+}
+
+
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="test_function()">Click To Test Function</button>
+
+<script>
+function test_function() {
+
+var friends = ["Sazol", "Raitul", "Rasel", "Samrat", "Rajib"];
+
+var string = get_five_character_length_string(friends);
+
+alert( string );
+
+}
+
+function get_five_character_length_string(array) {
+  var srtring = array[0];
+  for (i = 0; i < array.length; i++) {
+    if (array[i].length == 5 ) {
+      srtring = array[i];
+      break;
+    }
+  }
+  return srtring;
+}
+
+
+</script>
+
+</body>
+</html>
